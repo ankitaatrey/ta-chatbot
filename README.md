@@ -6,7 +6,7 @@ A prototype Retrieval-Augmented Generation (RAG) chatbot that answers course-rel
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - **Multi-file-type support** – PDFs, SRT transcripts, TXT, and Markdown
 - **Smart citations** – PDF page numbers and source labels
@@ -19,7 +19,7 @@ A prototype Retrieval-Augmented Generation (RAG) chatbot that answers course-rel
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Installation
 
@@ -95,7 +95,7 @@ View side-by-side answers from plain ChatGPT vs. your RAG-powered assistant.
 
 ---
 
-## 📁 Supported File Types
+## Supported File Types
 
 | File Type   | Extensions         | Features                                  |
 |-------------|--------------------|-------------------------------------------|
@@ -112,7 +112,7 @@ View side-by-side answers from plain ChatGPT vs. your RAG-powered assistant.
 
 ---
 
-## 🎨 User Interface
+## User Interface
 
 ### Main Chatbot (`src/app.py`)
 
@@ -136,9 +136,9 @@ View side-by-side answers from plain ChatGPT vs. your RAG-powered assistant.
 - Citations with page numbers
 - File-type icons and labels
 
----
+-----
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────┐
@@ -187,7 +187,7 @@ View side-by-side answers from plain ChatGPT vs. your RAG-powered assistant.
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 Edit `.env` to customize behavior:
 
@@ -212,7 +212,7 @@ LOG_LEVEL=INFO            # DEBUG | INFO | WARNING | ERROR
 
 ---
 
-## 💬 Chitchat Detection
+## Chitchat Detection
 
 The system recognizes casual conversation and responds naturally **without** triggering document retrieval, saving time and API costs.
 
@@ -234,7 +234,7 @@ Bot: [Normal RAG with sources and citations]
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### No documents retrieved
 
@@ -273,7 +273,7 @@ python -m src.ingestion --data_dir data --force
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 ta-chatbot/
@@ -307,24 +307,24 @@ ta-chatbot/
 
 ---
 
-## 📋 Requirements
+## Requirements
 
 - **Python:** 3.9 or higher
 - **RAM:** 4GB minimum (8GB+ recommended)
 - **API:** OpenAI API key
 - **Disk:** ~500MB for models and vector database
 
----
+----
 
-## 📜 License
+## License
 
 MIT License. See `LICENSE` file for details.
 
 This project is provided as-is for educational and demonstration purposes.
 
----
+----
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 Built as a prototype for university Teaching Assistants to demonstrate:
 - Multi-source RAG with diverse file types
@@ -334,7 +334,7 @@ Built as a prototype for university Teaching Assistants to demonstrate:
 
 ---
 
-## 📚 Additional Documentation
+## Additional Documentation
 
 - **`MULTI_FILE_TYPE_GUIDE.md`** – Detailed architecture documentation
 - **`CHITCHAT_FEATURE.md`** – Chitchat detection implementation
