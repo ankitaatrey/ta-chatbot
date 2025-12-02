@@ -1,6 +1,6 @@
 # 🎓 Multi-Source RAG Teaching Assistant
 
-A prototype Retrieval-Augmented Generation (RAG) chatbot that answers course-related questions using multiple file types (PDFs, SRT transcripts, text files, markdown documents). Designed for clarity, transparency, and demonstration—ideal for interviews, teaching, and RAG engineering practice.
+A prototype Retrieval-Augmented Generation (RAG) chatbot that answers course-related questions using multiple file types (PDFs, SRT transcripts, text files, markdown documents, etc). Designed for clarity, transparency, and demonstration—ideal for interviews, teaching, and RAG engineering practice.
 
 > **Status:** Prototype – not a production system.
 
